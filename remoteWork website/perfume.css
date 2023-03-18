@@ -1,0 +1,187 @@
+#banner{
+    background-position: center;
+    background-size: cover;
+
+}
+#banner img{
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    left: 600px;
+    top: 100px;
+}
+
+#banner h1{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#banner p{
+    color: rgb(97, 94, 94);
+
+    position: absolute;
+    top: 370px;
+    left: 100px;
+    font-size: 18px;
+    font-weight: 300;
+
+}
+
+
+#navbar{
+    
+}
+.logoimg{
+
+    position: absolute;
+    left: 30px;
+    top: 30px;
+
+    
+    
+} 
+nav{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+nav ul {
+    position: absolute;
+    bottom:550px;
+    left: 100px;
+   
+    
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(97, 94, 94);
+
+    font-size: 17px;
+    font-weight: 300;
+
+
+}
+a:hover{
+    color: black;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.dropdown li{
+
+
+
+    display: none;
+    
+    position: absolute;
+    top: 50px;
+     
+     
+  }
+
+  .navbar li:nth-child(2):hover .company{
+
+    display: block;
+
+   
+  }
+
+  .company li{
+    
+    position: absolute;
+    top: 50px;
+    display: none;
+  }
+  .company li a{
+    padding: 20px 0;
+
+  }
+
+.DownArrow{
+    position:absolute;
+    top: 37px;
+    left: 225px;
+}
+
+.Downarrow{
+
+    position:absolute;
+    top: 37px;
+    left: 335px;
+
+}
+
+ button{
+
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    width:150px;
+    height: 8vh;
+    border-radius: 15px 15px 15px 15px;
+
+}
+button:hover{
+    background-color: white;
+    color: black;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.reg-but{
+    width: 120px;
+    height: 7vh;
+    border: solid 2px rgb(97, 94, 94);
+    ;
+    border-radius: 15px;
+    position: absolute;
+    left:1200px;
+    top: 25px;
+    color: rgb(97, 94, 94);
+}
+.reg-but:hover{
+    color: white;
+    background-color: black;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.log{
+    text-decoration: none;
+    color: rgb(97, 94, 94);
+
+    position: absolute;
+    left: 1100px;
+    top: 35px;
+    font-size: 17px;
+    font-weight: 300;
+}
+.log:hover{
+
+    color: black;
+    font-size: 19px;
+    font-weight: 300;
+
+}
+
+.aud{
+    width: 100px;
+    height: 8vh;
+    position: absolute;
+    right: 100px;
+}
+
+
+
+
+
